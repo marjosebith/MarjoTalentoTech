@@ -1,0 +1,525 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f2de;
+  position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+}
+
+.header .logo {
+    width: 70px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li {
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
+/* Sección principal */
+.principalIndex {
+    background-image: url(../assets/img/livingroom_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+    padding-top: 120px;
+}
+
+.contenedorTextoPrincipal {
+    max-width: 450px;
+    background-color: #d7e0c4;
+    padding: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.contenedorTextoPrincipal h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.contenedorTextoPrincipal p,
+.contenedorTextoPrincipal a {
+    font-size: 20px;
+    color: #333333;
+   text-align: justify;
+}
+
+.contenedorTextoPrincipal a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1c3c32;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+/* Sección About Us */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.contentabout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    width: 35%;
+    padding: 5px;
+    text-align: left;
+}
+
+.titulo h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infoabout {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.infoabout p,
+.infoabout a {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.infoabout a {
+    display: inline-block;
+    background-color: #1c3c32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.infoabout img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Servicios */
+.service {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloservice {
+    background-color: #f5f2de;
+    border-bottom: 3px solid #000000;
+    padding: 5px;
+}
+
+.tituloservice h2 {
+    text-align: justify;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cartservice {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #f5f2de;
+    width: 400px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3,
+.card h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.card a {
+    display: block;
+    width: 100%;
+    color: #1c3c32;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #1c3c32;
+}
+
+/* book now*/
+.booknow {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f2de;
+}
+
+.ancla {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #1c3c32;
+}
+
+/*our work*/
+.ourwork {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100%;
+}
+
+.contentourwork {
+    flex: 1;
+}
+
+.contentourwork h2 {
+    text-align: justify;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contentourwork ul {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.ourwork img {
+    flex: 2;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Footer */
+.footer {
+    background-color: #f5f2de;
+    padding: 20px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.footer-top .logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.navfooter,
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.navfooter ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navfooter a,
+.footer-social a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
+.footer-subscribe {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer-subscribe input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+}
+
+.footer-subscribe input[type="submit"] {
+    background-color: #1c3c32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-contact,
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #777777;
+}
+.footer address p , a {
+   color: #333333;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+    
+.whatsapp a {
+    font-size: 50px;
+    color: #1c3c32;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;  
+}
+
+
+/* Estilos principales de la página de contacto */
+.contact-page {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 80px;
+    
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #f4f7fd;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.contact-info h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666666;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.contact-info .contact-image {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+  
+}
+
+.contact-form {
+    flex: 1;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+}
+
+.contact-form form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    flex: 1 1 100%;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+textarea {
+    resize: none;
+}
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #1c3c32;
+}
+
+
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color: #1c3c32;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #144128;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .header nav ul,
+    .ulfooter,
+    .contact-page{
+        flex-direction: column;
+    }
+
+    .about,
+    .service,
+    .ourwork, 
+    .contact-info,
+    .contact-form{
+        padding: 20px;
+    }
+
+    .contentabout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .infoabout {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .infoabout p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .booknow {
+        flex-direction: column;
+        align-items: center;
+    }
+   .form-group {
+        flex: 1 1 100%;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-subscribe input[type="email"],
+    .footer-subscribe input[type="submit"] {
+        width: 100%;
+    }
+}
+
